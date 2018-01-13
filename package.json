@@ -1,0 +1,29 @@
+{
+  "name": "getcardetails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash.camelcase": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GearoidCollins/dvla-uk-vehicle-lookup"
+  },
+  "keywords": ["uk", "reg", "dvla", "car", "vehicle", "make", "model"],
+  "author": "Gearoid Collins <gearoid@collins.ie>",
+  "license": "GPL-2.0"
+}
