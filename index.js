@@ -7,8 +7,8 @@ const valid = require('./utils/valid');
 module.exports = function vehicleDetails(reg) {
   const regno = reg.replace(/\s/g, '');
 
-  if (config.validation.reg.test(regno)) {
-    return new Error('Invalid vehicle regristration');
+  if (!config.validation.reg.test(regno)) {
+    throw new Error('Invalid vehicle regristration');
   }
 
   return axios

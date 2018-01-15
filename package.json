@@ -1,6 +1,6 @@
 {
-  "name": "getcardetails",
-  "version": "1.0.0",
+  "name": "dvla-uk-vehicle-lookup",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
