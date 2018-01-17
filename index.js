@@ -8,7 +8,7 @@ module.exports = function vehicleDetails(reg) {
   const regno = reg.replace(/\s/g, '');
 
   if (!config.validation.reg.test(regno)) {
-    throw new Error('Invalid vehicle regristration');
+    return Promise.reject(new Error('Invalid vehicle registration'));
   }
 
   return axios
