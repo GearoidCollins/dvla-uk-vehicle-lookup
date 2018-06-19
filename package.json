@@ -1,6 +1,6 @@
 {
   "name": "dvla-uk-vehicle-lookup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -23,7 +23,15 @@
     "type": "git",
     "url": "https://github.com/GearoidCollins/dvla-uk-vehicle-lookup"
   },
-  "keywords": ["uk", "reg", "dvla", "car", "vehicle", "make", "model"],
+  "keywords": [
+    "uk",
+    "reg",
+    "dvla",
+    "car",
+    "vehicle",
+    "make",
+    "model"
+  ],
   "author": "Gearoid Collins <gearoid@collins.ie>",
   "license": "GPL-2.0"
 }
